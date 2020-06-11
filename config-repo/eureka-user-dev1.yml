@@ -1,3 +1,4 @@
 doc:
   business:
-    request-prefix: http://localhost:15001
+    request:
+      prefix: http://localhost:15001
