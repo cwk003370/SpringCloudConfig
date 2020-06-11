@@ -1,6 +1,4 @@
 spring:
-  profiles:
-    active: dev1
   application:
     name: eureka-user
   jackson:
@@ -30,13 +28,5 @@ mybatis:
 logging:
   level:
     com.rongji.egov: debug
----
-spring:
-  profiles: dev1
 server:
   port: 12101
----
-spring:
-  profiles: dev2
-server:
-  port: 12201
