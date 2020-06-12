@@ -1,4 +1,11 @@
 spring:
+  jackson:
+    time-zone: GMT+8
+    default-property-inclusion: non_null
+  http:
+    multipart:
+      max-file-size: 100Mb
+      max-request-size: 100Mb
   datasource:
     driver-class-name: com.mysql.jdbc.Driver
     url:  jdbc:mysql://rm-uf6fsblm233b84l15xo.mysql.rds.aliyuncs.com:3306/egov?characterEncoding=utf8&useSSL=false
