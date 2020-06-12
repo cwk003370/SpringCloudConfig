@@ -1,3 +1,10 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url:  jdbc:mysql://rm-uf6fsblm233b84l15xo.mysql.rds.aliyuncs.com:3306/egov?characterEncoding=utf8&useSSL=false
+    useSSL: false
+    username: admin123
+    password: admin123
 doc:
   business:
     request:
